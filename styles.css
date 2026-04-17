@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    font-family: "Happy Monkey", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    background: linear-gradient(#a2d2ff, #efb0c9);
+    text-shadow: 0px 0px 1px #000000;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-shadow: 0px 0px 1px #000000;
+}
+
+.header-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.birthday-image{
+    margin: 0 auto;
+    width: 200px;
+    border-radius: 150px;
+    border: #efb0c9 solid 6px;
+}
+
+.giftImage-div{
+    margin: 0 auto;
+    border-radius: 10px;
+    border: #efb0c9 solid 6px;
+    background-image: url("images/gift.jpg");
+    background-size: cover;
+}
+
+#happy-image{
+    width: 440px;
+    height: 330px;
+}
+
+#shocked-image{
+    width: 640px;
+    height: 424px;
+}
+
+#cooked-image{
+    width: 320px;
+    height: 288px;
+}
+
+#cat-image{
+    width: 498px;
+    height: 498px;
+}
+
+#splash-image{
+    width: 498px;
+    height: 498px;
+}
+
+#happy-image:hover{
+    background-image: url("images/happy-dancing.webp");
+    background-size: cover;
+}
+
+#shocked-image:hover{
+    background-image: url("images/vince-mcmahon.webp");
+    background-size: cover;
+}
+
+#cooked-image:hover{
+    background-image: url("images/ISScooked.webp");
+    background-size: cover;
+}
+
+#cat-image:hover{
+    background-image: url("images/farmerCat.webp");
+    background-size: cover;
+}
+
+#splash-image:hover{
+    background-image: url("images/super-idol.webp");
+    background-size: cover;
+}
+
+.marginTop10-h{
+    margin-top: 0;
+}
+
+.marginBottom0-h{
+    margin-bottom: 10px;
+}
+
+.pinkBox-h{
+    background: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.footer-div{
+    width: 448px;
+    height: 427px;
+    border: #efb0c9 solid 6px;
+    margin: 0 auto 90px auto;
+    background-image: url("images/smiling-dog.webp");
+    background-size: cover;
+}
+
+.marginTop50-h{
+    margin-top: 100px;
+}
